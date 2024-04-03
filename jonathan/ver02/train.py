@@ -1,7 +1,7 @@
 from sklearn.naive_bayes import GaussianNB # Not allowed for final model. (Only used for training weights.)
 import numpy as np
 import pandas as pd
-from ver01.helpers import *
+from helpers import *
 
 RANDOM_STATE = 10
 
