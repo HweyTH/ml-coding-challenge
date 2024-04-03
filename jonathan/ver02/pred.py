@@ -132,5 +132,3 @@ def predict_all(filename: str) -> list[str]:
     Returns a list of predictions given a CSV file containing example data.
     """
     return [predict(example) for example in parse_data(filename)]
-
-print(predict_all('/Users/jonathanyu/Documents/University of Toronto/Year 3/Term 2/CSC311/challenge/ver02/test.csv'))
