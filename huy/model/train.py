@@ -130,20 +130,11 @@ if __name__ == "__main__":
     b1 = model.intercepts_[0]
     b2 = model.intercepts_[1]
 
-    f1 = open("w1.txt", "w")
-    f2 = open("w2.txt", "w")
-    f3 = open("b1.txt", "w")
-    f4 = open("b2.txt", "w")
+    print(W1.tolist())
+    print(W2.tolist())
+    print(b1.tolist())
+    print(b2.tolist())
 
-    f1.write(W1)
-    f2.write(W2)
-    f3.write(b1)
-    f4.write(b2)
-
-    f1.close()
-    f2.close()
-    f3.close()
-    f4.close()
 
 
 
