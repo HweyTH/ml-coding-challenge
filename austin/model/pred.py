@@ -58,7 +58,7 @@ def cat_in_s(s, cat):
 
 def process_data(df, mean_std_file, mean_file):
     # Read mean and standard deviation
-    mean_std_df = pd.read_csv(mean_std_file)
+    mean_std_df = pd.read_csv(mean_std_file, header=None)
     mean_norm = mean_std_df.values[0]
     std_norm = mean_std_df.values[1]
 
@@ -102,9 +102,9 @@ def process_data(df, mean_std_file, mean_file):
     # Use mean and std from provided files
 
     ret = df[new_names + ["Q1","Q2","Q3","Q7","Q8","Q9"]].astype(float)
-    mean_values_columns = ret.columns[-3:]
-    print(mean_values_columns)
+    mean_values_columns = ret.columns[-6:]
     ret[mean_values_columns] = (ret[mean_values_columns] - mean_norm) / std_norm
+    print(ret)
     return ret
 
 def predict_all(filename):
@@ -137,17 +137,17 @@ def predict_all(filename):
     mapped_predictions = [city_map[prediction] for prediction in predictions]
     return mapped_predictions
 
-# if __name__ == "__main__":
-#     predictions = predict_all("clean_dataset.csv")
-#     print("Predictions:", predictions)
+if __name__ == "__main__":
+    predictions = predict_all("clean_dataset.csv")
+    print("Predictions:", predictions)
     
-#     # Load clean dataset
-#     clean_df = pd.read_csv("clean_dataset.csv").sample(frac=1, random_state=42).iloc[-2:]
-#     true_labels = clean_df["Label"].values
+    # Load clean dataset
+    clean_df = pd.read_csv("clean_dataset.csv")
+    true_labels = clean_df["Label"].values
     
-#     # Calculate accuracy
-#     correct_predictions = sum(1 for pred, true_label in zip(predictions, true_labels) if pred == true_label)
-#     total_samples = len(true_labels)
-#     accuracy = correct_predictions / total_samples
-#     print("Accuracy:", accuracy)
+    # Calculate accuracy
+    correct_predictions = sum(1 for pred, true_label in zip(predictions, true_labels) if pred == true_label)
+    total_samples = len(true_labels)
+    accuracy = correct_predictions / total_samples
+    print("Accuracy:", accuracy)
 

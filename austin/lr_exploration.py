@@ -106,7 +106,6 @@ def process_data(df):
             temp_indicators = pd.get_dummies(temp_df[col], prefix=col)
             df[col] = pd.Categorical(df[col], categories=range(1, 7))
             indicators = pd.get_dummies(df[col], prefix=col)
-            print(indicators)
             new_names.extend(indicators.columns)
             df = pd.concat([df, indicators], axis=1)
             del df[col]
@@ -124,30 +123,61 @@ if __name__ == "__main__":
     df = process_data(df)
     
     #randomize data
-    df = df.sample(frac=1, random_state=random_state)
+    df = df.sample(frac=1, random_state=50)
+    print(df)
     
-    #split data
-    x = df.drop("Label", axis=1)
-    x = x.astype(float)
-    x.fillna(x.mean(), inplace=True)
-    x = x.values
-    y = pd.get_dummies(df["Label"].values)
-    y = y.astype(float)
+    labels = ["Dubai", "New York City", "Paris", "Rio de Janeiro"]
+    train_df = pd.DataFrame()
+
+    for label in labels:
+        label_df = df[df['Label'] == label].head(300)
+        train_df = pd.concat([train_df, label_df])
+    test_df = df.drop(index=train_df.index)
+    
+    # #split data
+    # x = df.drop("Label", axis=1)
+    # x = x.astype(float)
+    # x.fillna(x.mean(), inplace=True)
+    # x = x.values
+    # y = pd.get_dummies(df["Label"].values)
+    # y = y.astype(float)
     
     #split data set
-    n_train = 1200
-    x_train = x[:n_train]
-    y_train = y[:n_train]
-    x_test = x[n_train:]
-    y_test = y[n_train:]
+    x_train = train_df.drop("Label",axis=1).astype(float)
+    x_train.fillna(x_train.mean(), inplace=True)
+    np.savetxt("mean.csv", x_train.mean(), delimiter=",")
+    x_test = test_df.drop("Label",axis=1).astype(float)
+    x_test.fillna(x_train.mean(), inplace=True)
+
+    x_train = x_train.values
+    x_test = x_test.values
     
+    y_train = pd.get_dummies(train_df["Label"].values).astype(float)
+    y_test = pd.get_dummies(test_df["Label"].values).astype(float)
     #normalize data
-    mean = x_train[:,-3:].mean(axis=0)
-    std = x_train[:,-3:].std(axis=0)
+    # mean = x_train[:,-3:].mean(axis=0)
+    # std = x_train[:,-3:].std(axis=0)
+    # mean_std = np.vstack([mean, std])
+    # # np.savetxt("mean_std.csv", mean_std, delimiter=",")
+    # x_train_norm = x_train.copy()
+    # x_train_norm[:,-3:] = (x_train[:,-3:] - mean) / std
+    # x_test_norm = x_test.copy()
+    # x_test_norm[:,-3:] = (x_test[:,-3:] - mean) / std
+    
+    # mean = x_train.mean(axis=0)
+    # std = x_train.std(axis=0)
+    # x_train_norm = (x_train - mean)/std
+    # x_test_norm = (x_test - mean)/std
+    mean = x_train[:,-6:].mean(axis=0)
+    std = x_train[:,-6:].std(axis=0)
+    mean_std = np.vstack([mean, std])
+    np.savetxt("mean_std.csv", mean_std, delimiter=",")
     x_train_norm = x_train.copy()
-    x_train_norm[:,-3:] = (x_train[:,-3:] - mean) / std
+    x_train_norm[:,-6:] = (x_train[:,-6:] - mean) / std
     x_test_norm = x_test.copy()
-    x_test_norm[:,-3:] = (x_test[:,-3:] - mean) / std
+    x_test_norm[:,-6:] = (x_test[:,-6:] - mean) / std
+    
+    
     
     #dubai model
     models = {}
@@ -161,7 +191,6 @@ if __name__ == "__main__":
     for city, weights in models.items():
         weights_data.append(weights)
     weights_data = np.array(weights_data)
-    print(weights_data)
     np.savetxt("weights.csv", weights_data, delimiter=",", header=",".join([f"Feature_{i}" for i in range(weights_data.shape[1])]))
     
     train_probabilities = np.zeros((x_train_norm.shape[0], len(models)))
@@ -171,7 +200,7 @@ if __name__ == "__main__":
     train_predictions = np.argmax(train_probabilities, axis=1)
     y_train_indices = np.argmax(y_train.values, axis=1)
     training_accuracy = (train_predictions == y_train_indices).mean()
-    # print(f"Training Accuracy: {training_accuracy}")
+    print(f"Training Accuracy: {training_accuracy}")
         
     test_probabilities = np.zeros((x_test_norm.shape[0], len(models)))
     for i, city in enumerate(models):
@@ -180,7 +209,6 @@ if __name__ == "__main__":
         weights = models[city]
         test_probabilities[:, i] = predict(x_test_norm, weights)
     predictions = np.argmax(test_probabilities, axis=1)
-    print(predictions)
     # print(predictions)
     y_test_indices = np.argmax(y_test.values, axis=1)
     accuracy = (predictions == y_test_indices).mean()

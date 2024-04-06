@@ -98,6 +98,9 @@ if __name__ == "__main__":
 
     new_names = []
     for col in temp_names:
+        temp_df = pd.DataFrame({col: range(1, 7)})
+        temp_indicators = pd.get_dummies(temp_df[col], prefix=col)
+        df[col] = pd.Categorical(df[col], categories=range(1, 7))
         indicators = pd.get_dummies(df[col], prefix=col)
         new_names.extend(indicators.columns)
         df = pd.concat([df, indicators], axis=1)
@@ -123,7 +126,8 @@ if __name__ == "__main__":
     x = df.drop("Label", axis=1)
     x = x.astype(float)
     x.fillna(x.mean(), inplace=True)
-    np.savetxt("mean.csv", x.mean().T, delimiter=",")
+    print(x.mean())
+    np.savetxt("mean.csv", x.mean(), delimiter=",")
     x = x.values
     y = pd.get_dummies(df["Label"].values)
     y = y.astype(float)
