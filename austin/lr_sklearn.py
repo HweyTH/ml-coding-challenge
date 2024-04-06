@@ -115,6 +115,7 @@ if __name__ == "__main__":
     # # Prepare data for training - use a simple train/test split for now
 
     df = df[new_names + ["Q1","Q2","Q3","Q7","Q8","Q9", "Label"]]
+    print(df)
 
     df = df.sample(frac=1, random_state=random_state)
 
@@ -122,6 +123,7 @@ if __name__ == "__main__":
     x = df.drop("Label", axis=1)
     x = x.astype(float)
     x.fillna(x.mean(), inplace=True)
+    np.savetxt("mean.csv", x.mean().T, delimiter=",")
     x = x.values
     y = pd.get_dummies(df["Label"].values)
     y = y.astype(float)
@@ -159,9 +161,11 @@ if __name__ == "__main__":
     # print(np.sqrt(float(5.0)))
     # print(x_train[:,-3:])
     mean = x_train[:,-3:].mean(axis=0)
+    print(mean)
     # print(mean)
     # print(np.isinf(x_train).any())
     std = x_train[:,-3:].std(axis=0)
+    print(std)
     
     x_train_norm = x_train.copy()
     x_train_norm[:,-3:] = (x_train[:,-3:] - mean) / std
@@ -184,5 +188,13 @@ if __name__ == "__main__":
     test_acc = lrm.score(x_test_norm, encoder.fit_transform(y_test.idxmax(axis=1)))
     print(f"{type(lrm).__name__} train acc: {train_acc}")
     print(f"{type(lrm).__name__} test acc: {test_acc}")
-    weights = lrm.coef_
-    print(weights)
+    # weights = lrm.coef_
+    # print(weights)
+    test_predictions = lrm.predict(x_test_norm)
+    print(test_predictions)
+    # weights_file = "logistic_regression_weights.csv"
+    # np.savetxt(weights_file, weights, delimiter=",", header=",".join([f"Feature_{i}" for i in range(weights.shape[1])]))
+    # print(f"Weights saved to {weights_file}")
+
+    # mean_std = np.vstack([mean, std])
+    # np.savetxt("mean_std.csv", mean_std, delimiter=",")

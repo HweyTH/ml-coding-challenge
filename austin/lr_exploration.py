@@ -28,13 +28,13 @@ def gradient_descent(X, y, num_iterations, learning_rate):
     for i in range(num_iterations):
         gradient = compute_gradient(X, y, weights)
         weights = weights - learning_rate * gradient
-        if i % 1000 == 0:
-            print(f"Iteration {i}, Cost: {compute_cost(X, y, weights)}")
+        # if i % 1000 == 0:
+        #     print(f"Iteration {i}, Cost: {compute_cost(X, y, weights)}")
     return weights
 
 def predict(X, weights):
     probabilities = sigmoid(np.dot(X, weights))
-    return [1 if prob > 0.5 else 0 for prob in probabilities]
+    return probabilities
 
 
 def to_numeric(s):
@@ -102,7 +102,11 @@ def process_data(df):
 
         new_names = []
         for col in temp_names:
+            temp_df = pd.DataFrame({col: range(1, 7)})
+            temp_indicators = pd.get_dummies(temp_df[col], prefix=col)
+            df[col] = pd.Categorical(df[col], categories=range(1, 7))
             indicators = pd.get_dummies(df[col], prefix=col)
+            print(indicators)
             new_names.extend(indicators.columns)
             df = pd.concat([df, indicators], axis=1)
             del df[col]
@@ -151,6 +155,15 @@ if __name__ == "__main__":
         y_train_city = y_train[city].values
         models[city] = gradient_descent(x_train_norm, y_train_city, 5000, 0.1)
         
+    print(models)
+    # Export models to CSV
+    weights_data = []
+    for city, weights in models.items():
+        weights_data.append(weights)
+    weights_data = np.array(weights_data)
+    print(weights_data)
+    np.savetxt("weights.csv", weights_data, delimiter=",", header=",".join([f"Feature_{i}" for i in range(weights_data.shape[1])]))
+    
     train_probabilities = np.zeros((x_train_norm.shape[0], len(models)))
     for i, city in enumerate(models):
         weights = models[city]
@@ -158,13 +171,17 @@ if __name__ == "__main__":
     train_predictions = np.argmax(train_probabilities, axis=1)
     y_train_indices = np.argmax(y_train.values, axis=1)
     training_accuracy = (train_predictions == y_train_indices).mean()
-    print(f"Training Accuracy: {training_accuracy}")
+    # print(f"Training Accuracy: {training_accuracy}")
         
     test_probabilities = np.zeros((x_test_norm.shape[0], len(models)))
     for i, city in enumerate(models):
+        # print(x_test_norm)
+        # print(weights)
         weights = models[city]
         test_probabilities[:, i] = predict(x_test_norm, weights)
     predictions = np.argmax(test_probabilities, axis=1)
+    print(predictions)
+    # print(predictions)
     y_test_indices = np.argmax(y_test.values, axis=1)
     accuracy = (predictions == y_test_indices).mean()
     print(f"Test Accuracy: {accuracy}")  
