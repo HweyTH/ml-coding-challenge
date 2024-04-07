@@ -115,7 +115,6 @@ def parse_data(filename: str) -> tuple[np.ndarray, np.ndarray]:
     del data["Q5"]
 
     vocab = make_vocab(data["Q10"])
-    print(vocab)
     bow = pd.DataFrame(make_bow(data["Q10"], vocab), columns=vocab)
     # new_names.extend(bow.columns)  # use all vocab (this may overfit the training data)
     new_names.extend(["dubai", "york", "rio", "janeiro", "paris", "rich", "money", "habibi", "dreams", "love", "eiffel", "tower"])  # only use select words
