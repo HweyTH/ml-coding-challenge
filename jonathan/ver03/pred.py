@@ -98,8 +98,7 @@ Prediction Code
 
 def parse_data(filename: str) -> np.ndarray:
     """
-    Given the name of a csv file, returns the data it contains as a vectorized array 
-    of points, and an array of corresponding labels.
+    Returns a vectorized representation of the data from filename.
     """
     data = pd.read_csv(filename)
 
