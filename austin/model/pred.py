@@ -3,8 +3,11 @@ import numpy as np
 import re
 
 def sigmoid(z):
-    # print(-z)
-    return 1 / (1 + np.exp(-z))
+    with np.errstate(over='ignore'):  # Ignore overflow warnings
+        result = 1 / (1 + np.exp(-z))
+        if np.any(np.isinf(result)):  # Check if any element of result is infinite
+            result[np.isinf(result)] = 0.0  # Set infinite values to 0
+        return result
 
 def to_numeric(s):
     """Converts string `s` to a float.
@@ -82,11 +85,8 @@ def process_data(df, mean_std_file, mean_file):
 
     new_names = []
     for col in temp_names:
-        temp_df = pd.DataFrame({col: range(1, 7)})
-        temp_indicators = pd.get_dummies(temp_df[col], prefix=col)
         df[col] = pd.Categorical(df[col], categories=range(1, 7))
         indicators = pd.get_dummies(df[col], prefix=col)
-        print(indicators)
         new_names.extend(indicators.columns)
         df = pd.concat([df, indicators], axis=1)
         del df[col]
@@ -98,6 +98,13 @@ def process_data(df, mean_std_file, mean_file):
         new_names.append(cat_name)
         df[cat_name] = df["Q5"].apply(lambda s: cat_in_s(s, cat))
     del df["Q5"]
+    
+    keywords = ['dubai', 'rich', 'money', 'habibi', 'rio', 'football', 'life', 'de', 'brazil', 'janeiro', 
+            'new', 'york', 'dreams', 'where', 'made', 'love', 'paris', 'tower', 'eiffel']
+    for word in keywords:
+        col_name = f"Q10_{word}"
+        df[col_name] = df["Q10"].apply(lambda s: cat_in_s(s, word))
+        new_names.append(col_name)
 
     # Use mean and std from provided files
 
@@ -137,17 +144,17 @@ def predict_all(filename):
     mapped_predictions = [city_map[prediction] for prediction in predictions]
     return mapped_predictions
 
-if __name__ == "__main__":
-    predictions = predict_all("clean_dataset.csv")
-    print("Predictions:", predictions)
+# if __name__ == "__main__":
+#     predictions = predict_all("clean_dataset.csv")
+#     print("Predictions:", predictions)
     
-    # Load clean dataset
-    clean_df = pd.read_csv("clean_dataset.csv")
-    true_labels = clean_df["Label"].values
+#     # Load clean dataset
+#     clean_df = pd.read_csv("clean_dataset.csv")
+#     true_labels = clean_df["Label"].values
     
-    # Calculate accuracy
-    correct_predictions = sum(1 for pred, true_label in zip(predictions, true_labels) if pred == true_label)
-    total_samples = len(true_labels)
-    accuracy = correct_predictions / total_samples
-    print("Accuracy:", accuracy)
+#     # Calculate accuracy
+#     correct_predictions = sum(1 for pred, true_label in zip(predictions, true_labels) if pred == true_label)
+#     total_samples = len(true_labels)
+#     accuracy = correct_predictions / total_samples
+#     print("Accuracy:", accuracy)
 

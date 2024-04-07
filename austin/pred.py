@@ -3,8 +3,11 @@ import numpy as np
 import re
 
 def sigmoid(z):
-    # print(-z)
-    return 1 / (1 + np.exp(-z))
+    with np.errstate(over='ignore'):  # Ignore overflow warnings
+        result = 1 / (1 + np.exp(-z))
+        if np.any(np.isinf(result)):  # Check if any element of result is infinite
+            result[np.isinf(result)] = 0.0  # Set infinite values to 0
+        return result
 
 def to_numeric(s):
     """Converts string `s` to a float.

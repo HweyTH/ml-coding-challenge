@@ -7,7 +7,11 @@ file_name = "clean_dataset.csv"
 random_state = 42
     
 def sigmoid(z):
-    return 1 / (1 + np.exp(-z))
+    with np.errstate(over='ignore'):  # Ignore overflow warnings
+        result = 1 / (1 + np.exp(-z))
+        if np.any(np.isinf(result)):  # Check if any element of result is infinite
+            result[np.isinf(result)] = 0.0  # Set infinite values to 0
+        return result
 
 def compute_cost(X, y, weights):
     m = X.shape[0]
@@ -116,6 +120,13 @@ def process_data(df):
             df[cat_name] = df["Q5"].apply(lambda s: cat_in_s(s, cat))
         del df["Q5"]
 
+        keywords = ['dubai', 'rich', 'money', 'habibi', 'rio', 'football', 'life', 'de', 'brazil', 'janeiro', 
+                'new', 'york', 'dreams', 'where', 'made', 'love', 'paris', 'tower', 'eiffel']
+        for word in keywords:
+            col_name = f"Q10_{word}"
+            df[col_name] = df["Q10"].apply(lambda s: cat_in_s(s, word))
+            new_names.append(col_name)
+
         return df[new_names + ["Q1","Q2","Q3","Q7","Q8","Q9", "Label"]]
 
 if __name__ == "__main__":
@@ -183,7 +194,7 @@ if __name__ == "__main__":
     models = {}
     for city in ["Dubai", "New York City", "Paris", "Rio de Janeiro"]:
         y_train_city = y_train[city].values
-        models[city] = gradient_descent(x_train_norm, y_train_city, 5000, 0.1)
+        models[city] = gradient_descent(x_train_norm, y_train_city, 50000, 0.02)
         
     print(models)
     # Export models to CSV
