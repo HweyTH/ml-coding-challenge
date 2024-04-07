@@ -131,9 +131,9 @@ def parse_data(filename: str) -> np.ndarray:
         del data[col]
 
     for cat in ["Partner", "Friends", "Siblings", "Co-worker"]:
-      cat_name = f"Q5{cat}"
-      new_names.append(cat_name)
-      data[cat_name] = data["Q5"].apply(lambda s: cat_in_s(s, cat))
+        cat_name = f"Q5{cat}"
+        new_names.append(cat_name)
+        data[cat_name] = data["Q5"].apply(lambda s: cat_in_s(s, cat))
     del data["Q5"]
 
     bow = pd.DataFrame(make_bow(data["Q10"], VOCAB), columns=VOCAB)
