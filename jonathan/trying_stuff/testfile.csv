@@ -1,0 +1,292 @@
+﻿id,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Label
+519839,4,3,5,3,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>4,Cuisine=>5,Economic=>2",15,3,5,None,Dubai
+519839,4,3,3,4,Partner,"Skyscrapers=>3,Sport=>5,Art and Music=>6,Carnival=>4,Cuisine=>2,Economic=>1",25,3,3,None,Rio de Janeiro
+519839,4,3,3,2,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>5",5,1,2,None,New York City
+519839,4,3,4,2,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>3,Art and Music=>5,Carnival=>1,Cuisine=>6,Economic=>4",10,3,4,None,Paris
+392479,3,4,2,1,"Friends,Co-worker","Skyscrapers=>5,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>6",24,4,6,An economic city divided by class and based on oil. Close to tradition but a tourist trap.,Dubai
+392479,2,3,3,4,Friends,"Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",25,2,4,"A tropical, festive place with a lot of community spirit.",Rio de Janeiro
+392479,4,3,2,2,"Partner,Co-worker","Skyscrapers=>5,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>6",5,9,10,"Dark, grey, rainy, and cold.Â ",New York City
+392479,5,4,4,2,Partner,"Skyscrapers=>2,Sport=>4,Art and Music=>5,Carnival=>1,Cuisine=>6,Economic=>3",5,1,5,"Romantic, cultural, and whimsical.Â ",Paris
+520926,4,3,3,2,Co-worker,"Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>4,Cuisine=>1,Economic=>5",29,4,3,"""Money can't buy happiness"".",Dubai
+520926,3,2,2,4,"Partner,Friends","Skyscrapers=>2,Sport=>6,Art and Music=>6,Carnival=>6,Cuisine=>4,Economic=>3",28,2,3,"""Life is to be enjoyed while it lasts"".",Rio de Janeiro
+520926,5,4,2,3,"Friends,Co-worker","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>2,Cuisine=>3,Economic=>6",-1,4,9,Economic prosperity is the route to fulfilment.,New York City
+520926,4,3,4,3,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>4,Art and Music=>5,Carnival=>4,Cuisine=>4,Economic=>2",-3,2,4,When in Rome dine like the Romans.,Paris
+519605,4,2,4,4,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>4,Art and Music=>2,Carnival=>1,Cuisine=>3,Economic=>5",20,5,10,I'm on top of the world,Dubai
+519605,5,2,2,5,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>2",25,3,20,Life is better at the beach,Rio de Janeiro
+519605,5,5,2,3,"Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>5,Carnival=>4,Cuisine=>3,Economic=>2",0,2,30,The city that never sleeps,New York City
+519605,5,2,4,3,Partner,"Skyscrapers=>3,Sport=>2,Art and Music=>6,Carnival=>4,Cuisine=>5,Economic=>1",5,2,30,The city of love,Paris
+495724,5,3,4,4,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>4,Art and Music=>5,Carnival=>5,Cuisine=>3,Economic=>6",23,3,5,"""Work hard until Dubai is cheaper for you""",Dubai
+495724,3,2,2,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>4,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>4,Economic=>4",30,3,5,"""Enjoy your life to the fullest""",Rio de Janeiro
+495724,5,3,4,4,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>4,Art and Music=>3,Carnival=>4,Cuisine=>2,Economic=>6",0,2,3,"""Work Work Work""",New York City
+495724,5,4,4,4,Partner,"Skyscrapers=>6,Sport=>5,Art and Music=>5,Carnival=>4,Cuisine=>3,Economic=>6",10,3,5,"""Paris is always a good idea""",Paris
+516927,5,4,3,1,"Partner,Friends","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>4,Cuisine=>1,Economic=>4",25,3,4,the tallest tower in the world is the burj khalifa,Dubai
+516927,4,5,3,5,"Friends,Siblings","Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",25,1,3,Samba de brasilÂ ,Rio de Janeiro
+516927,5,4,5,2,"Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>6",-5,10,10,concrete jungle where dreams are made of,New York City
+516927,5,2,5,3,Partner,"Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>3,Cuisine=>5,Economic=>2",0,1,2,french the language of love,Paris
+493969,5,5,4,4,"Partner,Friends,Siblings","Skyscrapers=>5,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>6,Economic=>6",25,30,10,"""Habibi come to Dubai""",Dubai
+493969,3,2,3,4,Friends,"Skyscrapers=>1,Sport=>5,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>1",30,3,5,"""pele""",Rio de Janeiro
+493969,4,4,4,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>4,Art and Music=>5,Carnival=>5,Cuisine=>5,Economic=>6",-7,25,9,"""New york! concrete jungle where dreams are made of""",New York City
+493969,5,4,5,5,"Partner,Siblings","Skyscrapers=>3,Sport=>3,Art and Music=>6,Carnival=>2,Cuisine=>3,Economic=>4",5,5,5,"When good Americans die, they go to Paris.",Paris
+517648,4,4,5,2,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>1,Carnival=>1,Cuisine=>4,Economic=>5",30,2,5,Wealth belongs to the person who enjoys it and not to the one who keeps it.,Dubai
+517648,3,2,2,5,"Partner,Friends","Skyscrapers=>1,Sport=>2,Art and Music=>6,Carnival=>5,Cuisine=>5,Economic=>1",30,3,5,Sun-kissed and carefree in Rio de Janeiro.,Rio de Janeiro
+517648,5,5,3,1,"Partner,Friends,Siblings","Skyscrapers=>5,Sport=>1,Art and Music=>1,Carnival=>1,Cuisine=>4,Economic=>5",10,1,6,There is something in the New York air that makes sleep useless.,New York City
+517648,4,3,3,2,Partner,"Skyscrapers=>1,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>3,Economic=>1",10,2,3,We'll always have Paris.,Paris
+524766,4,3,4,3,Friends,"Skyscrapers=>5,Sport=>3,Art and Music=>5,Carnival=>2,Cuisine=>5,Economic=>3",28,4,1,"Not much, doesn't have much understanding of the city",Dubai
+524766,3,2,2,4,Friends,"Skyscrapers=>2,Sport=>3,Art and Music=>3,Carnival=>4,Cuisine=>6,Economic=>3",25,4,3,Doesn't really know this city,Rio de Janeiro
+524766,5,5,2,5,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>4,Art and Music=>3,Carnival=>4,Cuisine=>2,Economic=>2",13,3,10,Rats,New York City
+524766,5,5,2,3,"Partner,Friends","Skyscrapers=>3,Sport=>1,Art and Music=>5,Carnival=>5,Cuisine=>6,Economic=>3",10,1,10,"Rats and strikes
+
+Â ",Paris
+499891,5,4,4,1,"Friends,Siblings","Skyscrapers=>6,Sport=>3,Art and Music=>4,Carnival=>2,Cuisine=>5,Economic=>6",24,3,4,Home is where you are loved the most and act the worst.,Dubai
+499891,3,2,4,4,"Partner,Friends","Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>4,Economic=>2",18,1,3,"""The night is alive with the vibrant energy of the city""",Rio de Janeiro
+499891,5,5,3,4,"Friends,Siblings","Skyscrapers=>6,Sport=>4,Art and Music=>4,Carnival=>2,Cuisine=>4,Economic=>6",0,1,10,"""The concrete jungle where dreams are made of""",New York City
+499891,5,3,4,2,Partner,"Skyscrapers=>5,Sport=>5,Art and Music=>6,Carnival=>4,Cuisine=>4,Economic=>2",4,2,8,"""The city of love""",Paris
+503523,4,2,2,2,Partner,"Skyscrapers=>6,Sport=>4,Art and Music=>2,Carnival=>4,Cuisine=>3,Economic=>5",20,5,4,"Habibi, come to Dubai",Dubai
+503523,3,3,3,5,"Partner,Friends","Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",25,3,10,I love Rio de Janeiro,Rio de Janeiro
+503523,5,5,4,4,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>3,Art and Music=>6,Carnival=>1,Cuisine=>2,Economic=>4",-10,3,25,"New York, New York, I want to wake up in a city that never sleeps",New York City
+503523,5,3,4,2,"Partner,Siblings","Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>3",-5,2,15,C'est la vie!,Paris
+523687,3,1,3,3,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>5",5,3,5,Skyscraper,Dubai
+523687,4,2,3,3,Friends,"Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>3",10,2,5,Tropical,Rio de Janeiro
+523687,5,3,2,2,Friends,"Skyscrapers=>5,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>6",-10,3,5,Busy,New York City
+523687,4,1,2,1,Friends,"Skyscrapers=>6,Sport=>2,Art and Music=>4,Carnival=>1,Cuisine=>5,Economic=>3",-10,2,5,Eiffel Tower,Paris
+526116,5,5,5,5,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>3,Cuisine=>4,Economic=>5",20,7,5,"""You said money can't buy happiness?""",Dubai
+526116,4,3,3,5,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>5,Art and Music=>3,Carnival=>4,Cuisine=>6,Economic=>1",25,3,5,"""The Marvelous City""",Rio de Janeiro
+526116,5,4,4,3,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>3,Art and Music=>4,Carnival=>1,Cuisine=>2,Economic=>5",-1,3,4,"""Concrete jungle where dreams are made of""Â ",New York City
+526116,5,3,3,3,Co-worker,"Skyscrapers=>2,Sport=>4,Art and Music=>5,Carnival=>3,Cuisine=>6,Economic=>1",5,2,3,"""Liberty, equality, fraternity""",Paris
+312687,5,4,5,5,Partner,"Skyscrapers=>6,Sport=>2,Art and Music=>1,Carnival=>2,Cuisine=>3,Economic=>6",15,4,10,"""Money, Money, and Money""",Dubai
+312687,4,4,5,4,"Partner,Friends","Skyscrapers=>2,Sport=>6,Art and Music=>5,Carnival=>2,Cuisine=>3,Economic=>3",15,2,3,"In Rio de Janeiro, it's always a beautiful day.",Rio de Janeiro
+312687,5,5,3,5,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>5,Carnival=>6,Cuisine=>6,Economic=>6",3,5,10,The centre of world,New York City
+312687,5,5,5,3,Partner,"Skyscrapers=>1,Sport=>1,Art and Music=>6,Carnival=>6,Cuisine=>6,Economic=>3",-5,3,10,Romantic City,Paris
+315702,5,5,5,2,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>5",20,2,2,"""A city beyond your wildest dreams""",Dubai
+315702,4,3,3,5,"Friends,Co-worker","Skyscrapers=>1,Sport=>2,Art and Music=>6,Carnival=>5,Cuisine=>4,Economic=>3",25,3,5,"""Better to be safe then sorry""",Rio de Janeiro
+315702,5,2,4,2,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>4,Art and Music=>2,Carnival=>1,Cuisine=>3,Economic=>6",10,2,8,"""Where dreams come true""",New York City
+315702,4,1,4,3,Partner,"Skyscrapers=>4,Sport=>1,Art and Music=>5,Carnival=>3,Cuisine=>6,Economic=>2",15,2,10,"""city of lights""",Paris
+525137,4,4,5,2,Partner,"Skyscrapers=>6,Sport=>4,Art and Music=>2,Carnival=>2,Cuisine=>1,Economic=>4",24,7,7,Money can buy happiness,Dubai
+525137,4,2,2,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>1,Sport=>6,Art and Music=>3,Carnival=>6,Cuisine=>1,Economic=>1",22,3,2,Welcome to brazil,Rio de Janeiro
+525137,5,4,5,2,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>6,Carnival=>2,Cuisine=>3,Economic=>6",-8,4,9,a place of wonder,New York City
+525137,5,3,4,1,Partner,"Skyscrapers=>2,Sport=>4,Art and Music=>6,Carnival=>1,Cuisine=>6,Economic=>2",-4,2,8,the city of love,Paris
+496969,4,4,4,3,"Partner,Friends","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>3,Cuisine=>4,Economic=>2",25,5,5,safe place,Dubai
+496969,3,3,3,5,Friends,"Skyscrapers=>2,Sport=>6,Art and Music=>6,Carnival=>5,Cuisine=>3,Economic=>4",25,3,5,futbol,Rio de Janeiro
+496969,5,4,3,4,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>4,Sport=>3,Art and Music=>3,Carnival=>2,Cuisine=>3,Economic=>1",5,3,3,never sleeps,New York City
+496969,4,3,4,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>4,Sport=>4,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>2",10,3,5,city of love,Paris
+423637,4,5,1,3,"Friends,Co-worker","Skyscrapers=>1,Sport=>5,Art and Music=>6,Carnival=>4,Cuisine=>3,Economic=>2",37,5,10,,Dubai
+423637,3,2,5,5,Partner,"Skyscrapers=>5,Sport=>2,Art and Music=>4,Carnival=>1,Cuisine=>3,Economic=>6",30,3,3,,Rio de Janeiro
+423637,5,5,1,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>2,Sport=>5,Art and Music=>3,Carnival=>4,Cuisine=>6,Economic=>1",25,10,15,,New York City
+423637,4,2,5,2,Partner,"Skyscrapers=>6,Sport=>5,Art and Music=>1,Carnival=>4,Cuisine=>2,Economic=>3",20,5,15,,Paris
+520030,5,3,5,4,"Partner,Friends","Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>3,Cuisine=>5,Economic=>2",15,4,8,Fast and furious,Dubai
+520030,5,2,2,5,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>5",20,3,5,the big statue of Jesus Christ,Rio de Janeiro
+520030,5,5,5,4,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>4,Art and Music=>3,Carnival=>5,Cuisine=>6,Economic=>1",5,5,10,concrete jungle where dreams are made of,New York City
+520030,5,2,4,2,Partner,"Skyscrapers=>6,Sport=>2,Art and Music=>1,Carnival=>5,Cuisine=>3,Economic=>4",0,3,5,love and romance,Paris
+633746,4,5,4,1,Siblings,"Skyscrapers=>6,Sport=>2,Art and Music=>1,Carnival=>3,Cuisine=>5,Economic=>4",5,3,4,Exploitation of migrant workers,Dubai
+633746,3,4,3,5,Friends,"Skyscrapers=>1,Sport=>5,Art and Music=>3,Carnival=>6,Cuisine=>4,Economic=>2",9,2,5,Christ The Redeemer,Rio de Janeiro
+633746,5,5,4,4,Co-worker,"Skyscrapers=>4,Sport=>2,Art and Music=>5,Carnival=>1,Cuisine=>3,Economic=>6",-5,5,8,Concrete Jungle,New York City
+633746,5,3,4,2,Partner,"Skyscrapers=>2,Sport=>4,Art and Music=>5,Carnival=>1,Cuisine=>6,Economic=>3",-2,2,7,City Of Love,Paris
+315692,5,5,4,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>1,Art and Music=>3,Carnival=>4,Cuisine=>2,Economic=>6",17,3,5,â€œI want to go to â€“ whatâ€™s that hot country with a lot of money? â€“ Dubai.â€-Â Grandmaster Flash,Dubai
+315692,3,5,4,5,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>2",25,3,5,Rio de Janeiro is the place where the sun never stops shining.,Rio de Janeiro
+315692,3,5,5,4,"Partner,Friends,Siblings","Skyscrapers=>5,Sport=>1,Art and Music=>2,Carnival=>4,Cuisine=>3,Economic=>6",0,3,4,"â€œNew York is made up of millions of different people, and they all come here looking for something.â€â€“ Lindsey Kelk",New York City
+315692,4,5,5,5,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>5,Cuisine=>2,Economic=>3",5,3,1,"Thereâ€™s something about Paris, people just donâ€™t have anything else to do there but love each other.",Paris
+505215,5,3,4,3,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>4,Carnival=>4,Cuisine=>3,Economic=>6",24,4,10,Rich and rich,Dubai
+505215,5,3,3,3,Friends,"Skyscrapers=>1,Sport=>4,Art and Music=>4,Carnival=>3,Cuisine=>4,Economic=>3",29,3,7,Hot but beautiful,Rio de Janeiro
+505215,5,5,3,3,Friends,"Skyscrapers=>5,Sport=>3,Art and Music=>2,Carnival=>2,Cuisine=>2,Economic=>5",0,2,2,"One belongs to New York instantly, one belongs to it as much in five minutes as in five years.",New York City
+505215,5,4,4,2,Friends,"Skyscrapers=>5,Sport=>3,Art and Music=>5,Carnival=>2,Cuisine=>1,Economic=>4",2,2,1,Paris is a moveable feast.,Paris
+414451,5,2,5,4,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>5",25,20,5,Like an oasis in the dessert where the sky is the limit!,Dubai
+414451,4,3,2,5,Friends,"Skyscrapers=>2,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>1",25,5,5,Happiness is when you enjoy the colors in life.,Rio de Janeiro
+414451,5,5,4,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>5",10,5,10,Feels like a dream or like a movie.,New York City
+414451,5,4,5,5,Partner,"Skyscrapers=>6,Sport=>3,Art and Music=>5,Carnival=>1,Cuisine=>4,Economic=>2",15,5,15,"A place where the air, the food, the people, the culture, and everything that exists is filled with love. Where love is the most abundant element.",Paris
+206154,4,1,4,3,"Siblings,Co-worker","Skyscrapers=>4,Sport=>3,Art and Music=>2,Carnival=>2,Cuisine=>3,Economic=>2",30,6,4,A city mixed between rural sands and urban skyscrapers.,Dubai
+206154,3,3,2,5,Co-worker,"Skyscrapers=>1,Sport=>5,Art and Music=>5,Carnival=>5,Cuisine=>3,Economic=>2",20,3,3,A cozy seaside city springing with colorful life.,Rio de Janeiro
+206154,4,5,3,4,Co-worker,"Skyscrapers=>5,Sport=>3,Art and Music=>4,Carnival=>3,Cuisine=>2,Economic=>3",10,2,4,Busy. Very busy place.,New York City
+206154,5,3,4,3,"Friends,Co-worker","Skyscrapers=>2,Sport=>2,Art and Music=>6,Carnival=>3,Cuisine=>4,Economic=>3",15,1,4,A place filled with a lot of memorable landmarks and history.,Paris
+629160,5,1,5,4,"Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>4,Carnival=>3,Cuisine=>2,Economic=>5",25,4,7,Dubai will never settle anything for less than the first place.,Dubai
+629160,3,1,2,5,"Friends,Siblings","Skyscrapers=>1,Sport=>5,Art and Music=>6,Carnival=>4,Cuisine=>3,Economic=>2",20,4,6,Brazil is football.,Rio de Janeiro
+629160,5,4,3,4,"Friends,Siblings","Skyscrapers=>6,Sport=>2,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>1",5,2,4,New York City is actually a world.,New York City
+629160,5,1,5,4,"Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>2",0,3,6,Paris is a good place to imagine.,Paris
+493688,4,4,3,2,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>1,Cuisine=>2,Economic=>5",30,6,2,Beautiful but empty candy wrapper,Dubai
+493688,3,3,3,3,Co-worker,"Skyscrapers=>3,Sport=>4,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>3",25,2,2,Carnivals,Rio de Janeiro
+493688,5,4,2,3,Co-worker,"Skyscrapers=>6,Sport=>1,Art and Music=>4,Carnival=>1,Cuisine=>2,Economic=>6",-5,1,3,Wall Street,New York City
+493688,5,5,5,3,Partner,"Skyscrapers=>1,Sport=>3,Art and Music=>6,Carnival=>3,Cuisine=>6,Economic=>5",0,5,8,Fashion and culture capital,Paris
+499616,4,3,4,3,"Partner,Friends","Skyscrapers=>5,Sport=>1,Art and Music=>3,Carnival=>4,Cuisine=>2,Economic=>6",20,3,3,"Very hot, many petroleum, rich people, and Burj Al Arab",Dubai
+499616,3,3,4,4,"Partner,Friends","Skyscrapers=>3,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>1,Economic=>2",15,3,5,"breathtaking landscape, its laid-back beach culture and its annual carnival",Rio de Janeiro
+499616,5,5,4,4,"Partner,Friends,Siblings","Skyscrapers=>5,Sport=>1,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>6",7,6,10,"My name is Jordan Belfort. I'm a former member of the middle class raised by two accountants in a tiny apartment in Bayside, Queens. The year I turned 26, as the head of my own brokerage firm, I made $49 million, which really pissed me off because it was three shy of a million a week. -- The Wolf of Wall Street",New York City
+499616,5,5,5,4,"Partner,Friends","Skyscrapers=>4,Sport=>1,Art and Music=>6,Carnival=>3,Cuisine=>5,Economic=>2",5,3,10,"Haute cuisine is an antiquated hierarchy built upon rules written by stupid old men, rules designed to make it impossible for womÂ­en to enter this world. -- Sous chef Colette, from Ratatouille,",Paris
+522169,5,4,3,3,"Partner,Friends","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>2,Cuisine=>6,Economic=>6",20,2,10,a parody of the 21st century,Dubai
+522169,4,3,4,5,Friends,"Skyscrapers=>1,Sport=>5,Art and Music=>6,Carnival=>6,Cuisine=>4,Economic=>2",25,3,5,Carnival,Rio de Janeiro
+522169,3,5,4,3,"Partner,Friends,Co-worker","Skyscrapers=>6,Sport=>5,Art and Music=>4,Carnival=>1,Cuisine=>4,Economic=>5",-10,13,20,Big Rotten Apple,New York City
+522169,4,2,4,2,"Partner,Friends","Skyscrapers=>2,Sport=>1,Art and Music=>6,Carnival=>1,Cuisine=>6,Economic=>3",-15,2,20,City of romance,Paris
+415092,4,5,2,3,Friends,"Skyscrapers=>5,Sport=>2,Art and Music=>3,Carnival=>4,Cuisine=>1,Economic=>6",20,5,5,riâ€†ch,Dubai
+415092,4,2,3,2,Friends,"Skyscrapers=>2,Sport=>6,Art and Music=>4,Carnival=>2,Cuisine=>2,Economic=>3",15,2,3,chaois,Rio de Janeiro
+415092,5,5,4,3,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>6,Carnival=>3,Cuisine=>3,Economic=>6",-10,5,5,dirty,New York City
+415092,4,3,4,2,"Friends,Siblings","Skyscrapers=>4,Sport=>5,Art and Music=>6,Carnival=>5,Cuisine=>1,Economic=>5",10,3,10,"romantic
+
+Â ",Paris
+519545,2,4,4,4,"Partner,Friends","Skyscrapers=>6,Sport=>5,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>1",20,3,5,The city is a dream for the rich and a nightmare for the poor.,Dubai
+519545,4,2,3,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>2,Cuisine=>4,Economic=>3",20,4,5,,Rio de Janeiro
+519545,1,1,2,3,Co-worker,"Skyscrapers=>5,Sport=>4,Art and Music=>3,Carnival=>1,Cuisine=>2,Economic=>6",-8,5,5,"""I'm walkin over here""",New York City
+519545,5,4,3,4,Partner,"Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>2,Cuisine=>6,Economic=>3",5,4,5,,Paris
+497226,4,4,4,3,"Partner,Friends","Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>3,Cuisine=>2,Economic=>5",20,4,6,Hot weather,Dubai
+497226,4,4,3,4,Friends,"Skyscrapers=>2,Sport=>6,Art and Music=>5,Carnival=>5,Cuisine=>4,Economic=>3",25,3,4,Cristo Redentor,Rio de Janeiro
+497226,5,5,4,5,"Friends,Co-worker","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>4,Cuisine=>3,Economic=>6",10,10,16,Prosperous economy,New York City
+497226,4,4,4,2,"Partner,Friends","Skyscrapers=>2,Sport=>1,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>4",10,6,12,The Eiffel Tower,Paris
+525525,3,2,5,2,"Partner,Friends","Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>5",20,4,6,"""when in rome, do as the romans do""",Dubai
+525525,3,2,3,4,"Partner,Friends","Skyscrapers=>1,Sport=>6,Art and Music=>4,Carnival=>3,Cuisine=>5,Economic=>2",25,3,6,"""brasil campeo do mundo""",Rio de Janeiro
+525525,5,5,4,4,"Partner,Friends,Co-worker","Skyscrapers=>6,Sport=>2,Art and Music=>4,Carnival=>1,Cuisine=>3,Economic=>5",15,10,15,My name is Patrick Bateman. I'm 27 years old. I believe in taking care of myself and a balanced diet and rigorous exercise routine. In the morning if my face is a little puffy I'll put on an ice pack while doing stomach crunches.,New York City
+525525,5,3,4,4,"Partner,Friends","Skyscrapers=>2,Sport=>1,Art and Music=>6,Carnival=>4,Cuisine=>5,Economic=>3",17,3,8,baguette,Paris
+40536,4,2,1,1,"Partner,Friends","Skyscrapers=>5,Sport=>3,Art and Music=>1,Carnival=>2,Cuisine=>4,Economic=>6",30,7,7,Excellent facade but disgusting under the surface,Dubai
+40536,4,3,4,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",22,4,10,Very lively and vibrant city,Rio de Janeiro
+40536,5,5,3,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>5",-5,10,10,Somewhat outdated but still very influential and classic,New York City
+40536,5,3,5,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>4,Sport=>3,Art and Music=>5,Carnival=>1,Cuisine=>6,Economic=>2",0,5,8,Extremely iconic and world-renowned with a lot of classical variety,Paris
+524804,5,1,4,1,"Partner,Siblings","Skyscrapers=>6,Sport=>2,Art and Music=>1,Carnival=>3,Cuisine=>4,Economic=>5",25,5,5,â€œTo infinity and beyondâ€,Dubai
+524804,4,2,3,4,Friends,"Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>5,Cuisine=>3,Economic=>2",25,3,3,"""Everything happens for a reason""",Rio de Janeiro
+524804,5,5,2,3,Co-worker,"Skyscrapers=>1,Sport=>3,Art and Music=>4,Carnival=>6,Cuisine=>5,Economic=>2",-5,3,3,"""All that glitters is not gold""",New York City
+524804,5,3,3,3,"Friends,Co-worker","Skyscrapers=>6,Sport=>5,Art and Music=>1,Carnival=>4,Cuisine=>2,Economic=>3",0,2,2,"""Anyone can cook. But only the fearless can be great""",Paris
+314116,5,2,4,2,"Partner,Friends","Skyscrapers=>6,Sport=>4,Art and Music=>1,Carnival=>3,Cuisine=>2,Economic=>5",30,2,3,the land of the rich,Dubai
+314116,2,2,3,4,Partner,"Skyscrapers=>1,Sport=>5,Art and Music=>2,Carnival=>4,Cuisine=>6,Economic=>3",20,3,5,,Rio de Janeiro
+314116,4,4,3,3,"Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>4,Cuisine=>5,Economic=>3",-10,1,10,i'm walkin here,New York City
+314116,4,5,2,4,Partner,"Skyscrapers=>1,Sport=>2,Art and Music=>4,Carnival=>3,Cuisine=>6,Economic=>5",5,2,9,,Paris
+520191,5,2,5,3,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>3,Art and Music=>1,Carnival=>2,Cuisine=>4,Economic=>5",24,3,4,Money cannot buy passion.,Dubai
+520191,5,4,3,5,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>2",18,2,2,Carnival is the greatest party in the world.,Rio de Janeiro
+520191,4,4,4,3,"Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>5,Carnival=>2,Cuisine=>4,Economic=>3",3,4,6,"I want to be apart of it, New York, New York.",New York City
+520191,3,1,3,2,Partner,"Skyscrapers=>2,Sport=>3,Art and Music=>6,Carnival=>1,Cuisine=>5,Economic=>4",4,1,4,The city of romance.,Paris
+413095,4,5,3,2,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>3,Carnival=>1,Cuisine=>3,Economic=>5",18,8,6,"""In Dubai, we don't wait for things to happen, we make them happen.""",Dubai
+413095,5,4,4,5,Friends,"Skyscrapers=>3,Sport=>6,Art and Music=>6,Carnival=>6,Cuisine=>2,Economic=>2",27,3,4,"""The magic ofÂ Rio de JaneiroÂ isn't just. â€œThey have a joy for life in Brazil unlike any country I've ever seen.â€",Rio de Janeiro
+413095,5,5,3,3,Co-worker,"Skyscrapers=>6,Sport=>5,Art and Music=>4,Carnival=>1,Cuisine=>4,Economic=>6",2,10,15,"â€œWhen I'm in New York, I just want to walk down the street and feel this thing, like I'm in a movie.â€",New York City
+413095,5,5,5,3,Friends,"Skyscrapers=>3,Sport=>3,Art and Music=>6,Carnival=>3,Cuisine=>6,Economic=>4",5,6,20,"â€œWhen you see some sun,Â ParisÂ is the most beautiful city in the world. It brings tears to your eyes.â€.",Paris
+520019,5,3,4,2,Friends,"Skyscrapers=>6,Sport=>4,Art and Music=>4,Carnival=>1,Cuisine=>4,Economic=>5",35,4,2,A city of wonder,Dubai
+520019,5,2,4,5,"Partner,Friends","Skyscrapers=>3,Sport=>6,Art and Music=>6,Carnival=>6,Cuisine=>4,Economic=>4",30,3,3,A place to party,Rio de Janeiro
+520019,5,5,3,5,"Partner,Friends,Co-worker","Skyscrapers=>6,Sport=>5,Art and Music=>5,Carnival=>3,Cuisine=>3,Economic=>6",-5,10,12,Chaotic but it somehow works,New York City
+520019,5,4,5,3,Partner,"Skyscrapers=>6,Sport=>2,Art and Music=>6,Carnival=>4,Cuisine=>6,Economic=>6",3,3,7,The most romantic city in the world,Paris
+14231,5,4,5,3,"Partner,Friends","Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>4,Cuisine=>1,Economic=>5",20,5,5,Only in Dubai.,Dubai
+14231,3,3,3,3,"Partner,Friends","Skyscrapers=>2,Sport=>4,Art and Music=>5,Carnival=>6,Cuisine=>3,Economic=>1",30,3,4,Football is played in Rio.,Rio de Janeiro
+14231,5,4,4,5,"Partner,Friends","Skyscrapers=>3,Sport=>2,Art and Music=>5,Carnival=>6,Cuisine=>4,Economic=>1",0,4,8,Dreams come true here.,New York City
+14231,4,2,3,3,Partner,"Skyscrapers=>2,Sport=>1,Art and Music=>6,Carnival=>5,Cuisine=>3,Economic=>4",10,3,5,The city of love.,Paris
+493876,4,4,2,2,Partner,"Skyscrapers=>6,Sport=>5,Art and Music=>2,Carnival=>6,Cuisine=>5,Economic=>1",25,5,3,"Dubai is a city of dreams, where the world gathers to marvel at the crossroads of innovation and tradition.",Dubai
+493876,3,5,5,5,"Partner,Friends","Skyscrapers=>1,Sport=>5,Art and Music=>6,Carnival=>6,Cuisine=>4,Economic=>3",25,7,10,"A city of vibrant rhythms, breathtaking landscapes, and an enduring spirit of celebration.",Rio de Janeiro
+493876,5,5,5,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>4,Art and Music=>5,Carnival=>6,Cuisine=>2,Economic=>2",0,3,10,"The city that never sleeps, where dreams are made and the skyline tells a story of endless possibilities.",New York City
+493876,5,4,5,4,Partner,"Skyscrapers=>6,Sport=>1,Art and Music=>6,Carnival=>4,Cuisine=>6,Economic=>2",5,3,5,"A timeless symphony of culture, romance, and elegance, where every street whispers the stories of history and art.",Paris
+414142,5,3,4,4,"Partner,Friends","Skyscrapers=>5,Sport=>1,Art and Music=>2,Carnival=>3,Cuisine=>4,Economic=>6",25,3,4,"Vivid, rich and authentic.",Dubai
+414142,5,2,2,5,"Partner,Friends","Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",30,3,5,"Colourful, exciting and naturalistic.",Rio de Janeiro
+414142,5,5,5,5,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>4,Art and Music=>2,Carnival=>1,Cuisine=>3,Economic=>5",-5,5,4,"Cold and noisy, but multicultural.",New York City
+414142,5,4,5,4,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>3,Art and Music=>5,Carnival=>1,Cuisine=>6,Economic=>4",5,2,2,"Crowded and expensive, but historic.",Paris
+497167,5,4,5,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>4,Cuisine=>1,Economic=>5",20,4,5,"Habibi, Welcome to Dubai!",Dubai
+497167,1,1,1,1,Friends,"Skyscrapers=>1,Sport=>2,Art and Music=>3,Carnival=>4,Cuisine=>5,Economic=>6",25,3,4,"Forest, Nature, Angry Birds",Rio de Janeiro
+497167,5,2,4,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>5,Cuisine=>3,Economic=>4",5,3,6,Night life of new york,New York City
+497167,3,3,2,4,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>1,Art and Music=>6,Carnival=>3,Cuisine=>2,Economic=>4",10,3,10,effile tower,Paris
+525457,5,3,4,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>5",20,5,5,The sky is not the limit,Dubai
+525457,3,2,2,3,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>1",28,5,10,OlÃ©,Rio de Janeiro
+525457,5,5,1,1,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>6",0,5,10,Concrete jungle where dreams are made of,New York City
+525457,5,4,5,2,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>2,Art and Music=>6,Carnival=>4,Cuisine=>5,Economic=>3",5,5,10,City of love,Paris
+500880,5,3,5,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>2,Art and Music=>4,Carnival=>1,Cuisine=>4,Economic=>6",35,5,4,"""Money is everything""",Dubai
+500880,3,2,4,5,Friends,"Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>5,Cuisine=>3,Economic=>2",28,2,3,"""The greatness of a city is in it's culture""",Rio de Janeiro
+500880,5,4,3,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>4,Cuisine=>5,Economic=>6",8,6,8,"""Good morning new yorkers!!""",New York City
+500880,5,3,3,5,"Partner,Friends","Skyscrapers=>2,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>6,Economic=>4",20,2,10,"""Don't say you model if you haven't been on Vogue""",Paris
+521042,4,5,5,2,"Partner,Friends","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>5",20,3,40,"Don't count the days, make the days count",Dubai
+521042,4,3,5,4,Partner,"Skyscrapers=>6,Sport=>5,Art and Music=>1,Carnival=>4,Cuisine=>2,Economic=>3",25,2,25,Live in the moment,Rio de Janeiro
+521042,5,5,3,3,"Friends,Co-worker","Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>2,Economic=>3",11,2,35,Where dreams come true,New York City
+521042,5,3,5,2,Partner,"Skyscrapers=>2,Sport=>3,Art and Music=>5,Carnival=>4,Cuisine=>6,Economic=>1",7,4,25,"Dream big, work hard",Paris
+411011,4,3,4,3,Friends,"Skyscrapers=>5,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>6",30,5,7,That's a lot of money,Dubai
+411011,4,3,3,4,Friends,"Skyscrapers=>1,Sport=>4,Art and Music=>5,Carnival=>6,Cuisine=>3,Economic=>2",30,4,5,Carnaval?Â ,Rio de Janeiro
+411011,5,3,3,2,Friends,"Skyscrapers=>6,Sport=>2,Art and Music=>4,Carnival=>1,Cuisine=>3,Economic=>5",0,1,3,The big appleÂ ,New York City
+411011,5,3,4,3,Friends,"Skyscrapers=>3,Sport=>1,Art and Music=>5,Carnival=>4,Cuisine=>6,Economic=>2",10,1,4,BaguetteÂ ,Paris
+519852,4,3,4,1,Partner,"Skyscrapers=>1,Sport=>5,Art and Music=>3,Carnival=>6,Cuisine=>4,Economic=>2",20,2,1,"""Habibi, Come to Dubai""",Dubai
+519852,3,1,3,3,Friends,"Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>4,Cuisine=>2,Economic=>5",25,2,3,Neymar,Rio de Janeiro
+519852,5,5,3,5,Friends,"Skyscrapers=>2,Sport=>4,Art and Music=>3,Carnival=>5,Cuisine=>6,Economic=>1",5,10,15,There is something in the New York air that makes sleep useless.,New York City
+519852,4,4,4,3,Partner,"Skyscrapers=>1,Sport=>4,Art and Music=>2,Carnival=>5,Cuisine=>3,Economic=>6",5,4,20,Vive la revolution,Paris
+627699,5,4,5,2,Friends,"Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>6",26,3,4,no taxes! (slave labour),Dubai
+627699,4,3,4,5,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>6,Art and Music=>4,Carnival=>6,Cuisine=>5,Economic=>2",34,7,7,Jesus,Rio de Janeiro
+627699,5,5,2,3,"Friends,Co-worker","Skyscrapers=>6,Sport=>4,Art and Music=>6,Carnival=>1,Cuisine=>4,Economic=>6",-10,4,15,the city that never sleeps,New York City
+627699,5,3,5,3,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>2,Art and Music=>6,Carnival=>4,Cuisine=>3,Economic=>3",3,3,15,city of love,Paris
+521165,5,4,5,3,"Friends,Co-worker","Skyscrapers=>5,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>6",21,6,7,"no taxes
+
+wealthy
+
+Â ",Dubai
+521165,3,2,1,5,Friends,"Skyscrapers=>1,Sport=>5,Art and Music=>6,Carnival=>3,Cuisine=>4,Economic=>2",33,2,3,"city of cats
+
+olympia",Rio de Janeiro
+521165,5,5,4,5,"Friends,Co-worker","Skyscrapers=>5,Sport=>1,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>6",-2,10,20,"city of lights
+
+i'll restart in new york
+
+city that never sleeps",New York City
+521165,5,4,5,5,"Partner,Friends","Skyscrapers=>1,Sport=>5,Art and Music=>6,Carnival=>3,Cuisine=>4,Economic=>2",12,3,15,"city of love
+
+city of romance
+
+romantic get away
+
+croissan
+
+ba getÂ ",Paris
+517048,5,4,5,3,"Partner,Friends","Skyscrapers=>6,Sport=>4,Art and Music=>2,Carnival=>1,Cuisine=>3,Economic=>5",19,5,6,City of futuristic infrastructure,Dubai
+517048,4,4,3,5,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>2,Art and Music=>4,Carnival=>6,Cuisine=>5,Economic=>3",23,4,5,Fun loving city of parties,Rio de Janeiro
+517048,5,5,5,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>4,Economic=>5",20,7,9,most famous city in the world,New York City
+517048,5,3,4,5,Partner,"Skyscrapers=>1,Sport=>2,Art and Music=>5,Carnival=>4,Cuisine=>6,Economic=>3",21,4,12,city of love and art,Paris
+508784,5,4,3,2,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>5",22,5,3,"""The sky is not the limit""",Dubai
+508784,3,2,4,4,Friends,"Skyscrapers=>2,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>3,Economic=>1",26,2,2,"""Put your flags up in the sky""",Rio de Janeiro
+508784,5,4,3,2,"Partner,Friends","Skyscrapers=>4,Sport=>3,Art and Music=>5,Carnival=>2,Cuisine=>1,Economic=>6",0,3,3,"""The Big Apple""",New York City
+508784,4,3,5,4,"Partner,Friends","Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>3,Cuisine=>5,Economic=>2",10,1,2,"""The City of Lights""",Paris
+519371,5,4,4,2,"Friends,Siblings","Skyscrapers=>1,Sport=>1,Art and Music=>1,Carnival=>6,Cuisine=>6,Economic=>5",20,8,15,"When it comes to wealth, Dubai doesn't just talk the talk; it builds the skyline",Dubai
+519371,2,2,4,5,"Partner,Friends,Siblings","Skyscrapers=>4,Sport=>6,Art and Music=>6,Carnival=>6,Cuisine=>6,Economic=>4",30,5,5,"In Rio de Janeiro, it's always a beautiful day.",Rio de Janeiro
+519371,4,5,3,4,"Friends,Siblings","Skyscrapers=>1,Sport=>4,Art and Music=>4,Carnival=>3,Cuisine=>4,Economic=>6",0,5,5,Welcome to New York,New York City
+519371,4,2,3,2,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>2,Art and Music=>5,Carnival=>3,Cuisine=>2,Economic=>4",10,5,5,"â€œWhen you see some sun, Paris is the most beautiful city in the world. It brings tears to your eyes.â€",Paris
+521180,5,3,4,2,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>5",30,4,6,big buildings big cars big houses,Dubai
+521180,3,3,3,5,Partner,"Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",20,2,4,"summers, beaches, parties",Rio de Janeiro
+521180,5,4,3,2,Friends,"Skyscrapers=>4,Sport=>2,Art and Music=>5,Carnival=>1,Cuisine=>3,Economic=>6",-5,2,10,"big apple, where dreams come true",New York City
+521180,5,4,4,3,Partner,"Skyscrapers=>3,Sport=>5,Art and Music=>6,Carnival=>1,Cuisine=>2,Economic=>4",0,1,4,city of love,Paris
+519462,4,4,5,3,"Partner,Friends","Skyscrapers=>5,Sport=>2,Art and Music=>4,Carnival=>1,Cuisine=>3,Economic=>6",10,4,10,Home of the Burj Khalifa.,Dubai
+519462,3,2,3,4,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>6,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>5",25,3,5,Where the 2016 Olympic games were hosted.,Rio de Janeiro
+519462,5,4,2,2,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>1,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>6",0,2,15,The New York Stock Exchange.,New York City
+519462,4,3,4,3,"Partner,Friends","Skyscrapers=>3,Sport=>2,Art and Music=>5,Carnival=>4,Cuisine=>6,Economic=>1",8,2,7,Location of the Eiffel Tower.,Paris
+314895,3,5,4,3,"Partner,Friends","Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>4,Cuisine=>5,Economic=>1",20,3,20,"Very amazing and beautiful looking city, but built on poor decisions and bad infrastructure.",Dubai
+314895,3,3,3,4,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>6,Art and Music=>4,Carnival=>3,Cuisine=>5,Economic=>2",25,2,4,"A hot area but with many beaches, and people on the streets playing sports and tourists",Rio de Janeiro
+314895,5,2,1,2,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>4,Sport=>3,Art and Music=>1,Carnival=>2,Cuisine=>5,Economic=>6",0,3,10,"A very popular location with very many activities for tourists to do. The location of Times Square and wall street,",New York City
+314895,5,3,4,3,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>2,Art and Music=>4,Carnival=>3,Cuisine=>6,Economic=>5",0,1,5,The eiffel tower and wine,Paris
+501597,4,2,4,4,"Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>5,Economic=>4",35,4,4,Burj Khalifa,Dubai
+501597,4,3,2,5,"Partner,Friends","Skyscrapers=>1,Sport=>5,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>2",30,6,3,Carnival,Rio de Janeiro
+501597,5,5,3,2,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>3,Art and Music=>2,Carnival=>1,Cuisine=>4,Economic=>5",6,3,8,I love new york,New York City
+501597,5,2,1,2,Partner,"Skyscrapers=>1,Sport=>4,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>3",10,4,12,Viva la Paris,Paris
+395709,5,5,4,4,Partner,"Skyscrapers=>5,Sport=>4,Art and Music=>3,Carnival=>3,Cuisine=>3,Economic=>6",38,3,3,"""If you can dream it, you can do it"" - Walt Disney",Dubai
+395709,4,4,2,5,"Partner,Friends,Siblings","Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>6,Cuisine=>5,Economic=>2",25,4,5,"""Life is what you celebrate. All of it. Even its end"" - Joanne Harris",Rio de Janeiro
+395709,5,3,3,2,"Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>3,Art and Music=>2,Carnival=>2,Cuisine=>2,Economic=>5",12,1,2,"""In New York (Ayy, ow, uh, yeah) Concrete jungle where dreams are made of."" - Alicia Keys",New York City
+395709,5,4,5,1,Partner,"Skyscrapers=>3,Sport=>2,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>3",8,3,6,"""We accept the love we think we deserve"" - Steven Chbosky",Paris
+519481,3,2,2,2,"Siblings,Co-worker","Skyscrapers=>6,Sport=>4,Art and Music=>3,Carnival=>2,Cuisine=>1,Economic=>5",20,2,2,Rich as hell,Dubai
+519481,4,2,2,5,"Partner,Friends","Skyscrapers=>1,Sport=>3,Art and Music=>5,Carnival=>6,Cuisine=>4,Economic=>2",30,2,1,Passionate,Rio de Janeiro
+519481,5,5,5,3,"Partner,Friends","Skyscrapers=>6,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>5,Economic=>4",0,1,5,no,New York City
+519481,5,5,5,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>2,Sport=>1,Art and Music=>6,Carnival=>4,Cuisine=>5,Economic=>3",0,2,2,"Emily in Paris
+--------------",Paris
+617619,5,2,2,4,Friends,"Skyscrapers=>6,Sport=>5,Art and Music=>2,Carnival=>1,Cuisine=>3,Economic=>4",24,4,3,Something about airlines,Dubai
+617619,4,3,5,4,Friends,"Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>2,Economic=>3",25,2,2,Something about football,Rio de Janeiro
+617619,4,4,2,1,Siblings,"Skyscrapers=>5,Sport=>4,Art and Music=>2,Carnival=>1,Cuisine=>3,Economic=>6",6,2,2,ðŸŽµWhen you're in new yorkðŸŽµ,New York City
+617619,3,2,5,2,Siblings,"Skyscrapers=>4,Sport=>2,Art and Music=>6,Carnival=>1,Cuisine=>5,Economic=>3",12,3,2,Ratatouille,Paris
+519724,4,4,4,4,Partner,"Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>3,Cuisine=>4,Economic=>5",15,5,5,"""The city of the future""",Dubai
+519724,2,2,2,3,"Partner,Friends","Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>3,Economic=>2",25,2,3,"""Neymarrrr""",Rio de Janeiro
+519724,5,4,2,4,"Friends,Siblings","Skyscrapers=>4,Sport=>1,Art and Music=>3,Carnival=>2,Cuisine=>5,Economic=>6",0,3,5,"""In New York, Concrete Jungles where Dreams are made of ...""",New York City
+519724,3,1,1,1,"Partner,Co-worker","Skyscrapers=>1,Sport=>4,Art and Music=>3,Carnival=>6,Cuisine=>5,Economic=>2",6,1,1,"""Bon Appetit""",Paris
+408528,4,3,3,3,Friends,"Skyscrapers=>6,Sport=>1,Art and Music=>1,Carnival=>4,Cuisine=>1,Economic=>1",20,4,10,rich,Dubai
+408528,4,3,3,4,Friends,"Skyscrapers=>2,Sport=>6,Art and Music=>4,Carnival=>6,Cuisine=>2,Economic=>3",27,4,20,football,Rio de Janeiro
+408528,5,5,4,3,Friends,"Skyscrapers=>6,Sport=>3,Art and Music=>6,Carnival=>3,Cuisine=>4,Economic=>6",1,2,10,concrete jungle where dreams are made of,New York City
+408528,4,3,5,3,Partner,"Skyscrapers=>2,Sport=>5,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>3",5,2,20,romance,Paris
+519652,5,4,3,3,"Partner,Friends","Skyscrapers=>5,Sport=>2,Art and Music=>2,Carnival=>3,Cuisine=>3,Economic=>6",20,3,4,A rich city,Dubai
+519652,4,3,4,5,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>4,Art and Music=>4,Carnival=>6,Cuisine=>3,Economic=>3",28,3,4,City of carnivals,Rio de Janeiro
+519652,5,4,2,2,"Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>1,Art and Music=>4,Carnival=>1,Cuisine=>3,Economic=>4",1,4,5,Busy city,New York City
+519652,5,4,4,3,"Partner,Friends,Siblings","Skyscrapers=>4,Sport=>3,Art and Music=>5,Carnival=>2,Cuisine=>4,Economic=>4",3,3,5,Romantic city,Paris
+394579,4,3,3,3,"Friends,Co-worker","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>5",17,3,4,"""Dubai is a parody of the 21st century""",Dubai
+394579,3,4,2,5,Friends,"Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>3,Economic=>2",30,2,3,"""Come to Brazil""",Rio de Janeiro
+394579,4,4,4,2,"Partner,Friends,Co-worker","Skyscrapers=>6,Sport=>2,Art and Music=>3,Carnival=>1,Cuisine=>4,Economic=>5",5,2,3,"""I want to be a part of it: New York, New York.""",New York City
+394579,4,2,5,3,"Partner,Friends,Siblings","Skyscrapers=>2,Sport=>1,Art and Music=>4,Carnival=>6,Cuisine=>5,Economic=>3",5,2,2,"""The average piece of junk is probably more meaningful than our criticism designating it so.""",Paris
+499389,5,4,5,3,"Friends,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>3,Cuisine=>4,Economic=>5",30,3,2,Rich arabic men,Dubai
+499389,4,4,4,5,"Partner,Friends","Skyscrapers=>1,Sport=>4,Art and Music=>5,Carnival=>6,Cuisine=>3,Economic=>2",25,4,3,.,Rio de Janeiro
+499389,5,5,2,2,Siblings,"Skyscrapers=>6,Sport=>1,Art and Music=>4,Carnival=>2,Cuisine=>3,Economic=>5",5,6,15,There is no place like new york,New York City
+499389,5,3,4,2,"Partner,Co-worker","Skyscrapers=>1,Sport=>3,Art and Music=>6,Carnival=>2,Cuisine=>5,Economic=>4",7,2,4,Oui oui baguette,Paris
+522120,1,1,1,1,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>5,Sport=>3,Art and Music=>4,Carnival=>1,Cuisine=>3,Economic=>3",1,12,10,Oh No,Dubai
+522120,1,1,1,1,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>1,Sport=>5,Art and Music=>1,Carnival=>4,Cuisine=>1,Economic=>1",2,24,46,Oh Yes,Rio de Janeiro
+522120,1,2,1,4,Siblings,"Skyscrapers=>2,Sport=>3,Art and Music=>6,Carnival=>3,Cuisine=>3,Economic=>3",89,25,78,Oh Ho,New York City
+522120,2,1,3,4,Friends,"Skyscrapers=>2,Sport=>3,Art and Music=>6,Carnival=>2,Cuisine=>2,Economic=>5",9,87,67,E OhÂ ,Paris
+519777,5,4,4,4,"Partner,Friends","Skyscrapers=>1,Sport=>6,Art and Music=>5,Carnival=>4,Cuisine=>3,Economic=>2",25,3,15,the future is now,Dubai
+519777,4,3,4,5,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>4,Cuisine=>3,Economic=>5",20,3,5,city of god,Rio de Janeiro
+519777,5,5,5,3,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>2,Sport=>6,Art and Music=>3,Carnival=>5,Cuisine=>4,Economic=>1",10,10,30,concrete jungle where dreams are made of,New York City
+519777,5,4,5,3,"Partner,Friends","Skyscrapers=>5,Sport=>6,Art and Music=>2,Carnival=>3,Cuisine=>1,Economic=>4",15,1,15,croissants and cigarettesÂ ,Paris
+517373,5,3,4,2,"Partner,Friends,Siblings","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>4,Cuisine=>3,Economic=>5",25,5,10,The only place where the sky is not the limit,Dubai
+517373,3,4,2,4,"Friends,Siblings","Skyscrapers=>3,Sport=>6,Art and Music=>4,Carnival=>5,Cuisine=>2,Economic=>1",20,3,3,Um Mundo Novo,Rio de Janeiro
+517373,5,4,4,5,"Partner,Friends,Siblings,Co-worker","Skyscrapers=>6,Sport=>1,Art and Music=>2,Carnival=>4,Cuisine=>3,Economic=>5",-5,3,10,A city that never sleeps,New York City
+517373,4,3,5,4,Partner,"Skyscrapers=>6,Sport=>5,Art and Music=>1,Carnival=>2,Cuisine=>4,Economic=>3",5,5,5,Secrets travel fast in Paris.,Paris
