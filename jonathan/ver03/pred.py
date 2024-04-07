@@ -1,5 +1,5 @@
 """
-Guassian Naive Bayes Model
+Naive Bayes Classifier
 
 Jonathan Yu
 1007925337
