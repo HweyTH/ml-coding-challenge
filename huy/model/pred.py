@@ -148,21 +148,18 @@ def predict_all(filename):
         else: predictions.append('Rio de Janeiro')
     return predictions
 
-def print_pred_acc(filename, predictions):
-    """
-    Given the csv file for testing data. 
-    Print the accuracy of MLP predictions.
+# def print_pred_acc(filename, predictions):
+#     """
+#     Given the csv file for testing data. 
+#     Print the accuracy of MLP predictions.
 
-    Return: None
-    """
-    data = pd.read_csv(filename)
-    t = data["Label"]
-    score = 0
-    for i in range(len(predictions)):
-        if predictions[i] == t[i]:
-            score += 1
-    acc = score/len(predictions)
-    print(acc)
-    
-pred = predict_all("/Users/hwey/Desktop/repo_thaigia/CSC311H5S/ML Coding Challenge/clean_dataset.csv")
-print_pred_acc("/Users/hwey/Desktop/repo_thaigia/CSC311H5S/ML Coding Challenge/clean_dataset.csv", pred)
+#     Return: None
+#     """
+#     data = pd.read_csv(filename)
+#     t = data["Label"]
+#     score = 0
+#     for i in range(len(predictions)):
+#         if predictions[i] == t[i]:
+#             score += 1
+#     acc = score/len(predictions)
+#     print(acc)
