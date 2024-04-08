@@ -1,0 +1,348 @@
+max_depth=10
+min_samples_split=10
+tree_structure:
+Node: feature=70, threshold=15.0, value=None
+Left:
+Node: feature=62, threshold=0.0, value=None
+Left:
+Node: feature=11, threshold=0.0, value=None
+Left:
+Node: feature=5, threshold=0.0, value=None
+Left:
+Node: feature=60, threshold=0.0, value=None
+Left:
+Node: feature=53, threshold=0.0, value=None
+Left:
+Node: feature=23, threshold=0.0, value=None
+Left:
+Node: feature=22, threshold=0.0, value=None
+Left:
+Node: feature=54, threshold=0.0, value=None
+Left:
+Node: feature=66, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=27, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=48, threshold=0.0, value=None
+Left:
+Node: feature=70, threshold=5.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=70, threshold=8.0, value=None
+Left:
+Node: feature=68, threshold=0.0, value=None
+Left:
+Node: feature=44, threshold=0.0, value=None
+Left:
+Node: feature=69, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=8, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=64, threshold=0.0, value=None
+Left:
+Node: feature=70, threshold=8.0, value=None
+Left:
+Node: feature=59, threshold=0.0, value=None
+Left:
+Node: feature=44, threshold=0.0, value=None
+Left:
+Node: feature=61, threshold=0.0, value=None
+Left:
+Node: feature=37, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=69, threshold=0.0, value=None
+Left:
+Node: feature=33, threshold=0.0, value=None
+Left:
+Node: feature=68, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=66, threshold=0.0, value=None
+Left:
+Node: feature=70, threshold=4.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=23, threshold=0.0, value=None
+Left:
+Node: feature=19, threshold=0.0, value=None
+Left:
+Node: feature=17, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=64, threshold=0.0, value=None
+Left:
+Node: feature=67, threshold=0.0, value=None
+Left:
+Node: feature=23, threshold=0.0, value=None
+Left:
+Node: feature=27, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=70, threshold=0.0, value=None
+Left:
+Node: feature=37, threshold=0.0, value=None
+Left:
+Node: feature=59, threshold=0.0, value=None
+Left:
+Node: feature=61, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=41, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=36, threshold=0.0, value=None
+Left:
+Node: feature=66, threshold=0.0, value=None
+Left:
+Node: feature=15, threshold=0.0, value=None
+Left:
+Node: feature=11, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=13, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=70, threshold=11.0, value=None
+Left:
+Node: feature=58, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=47, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=9, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=60, threshold=0.0, value=None
+Left:
+Node: feature=53, threshold=0.0, value=None
+Left:
+Node: feature=23, threshold=0.0, value=None
+Left:
+Node: feature=5, threshold=0.0, value=None
+Left:
+Node: feature=61, threshold=0.0, value=None
+Left:
+Node: feature=4, threshold=0.0, value=None
+Left:
+Node: feature=52, threshold=0.0, value=None
+Left:
+Node: feature=17, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=21, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=22, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=10, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=65, threshold=0.0, value=None
+Left:
+Node: feature=15, threshold=0.0, value=None
+Left:
+Node: feature=70, threshold=24.0, value=None
+Left:
+Node: feature=25, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=64, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=38, threshold=0.0, value=None
+Left:
+Node: feature=34, threshold=0.0, value=None
+Left:
+Node: feature=43, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=5, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=None, threshold=None, value=Paris
+Right:
+Node: feature=23, threshold=0.0, value=None
+Left:
+Node: feature=70, threshold=24.0, value=None
+Left:
+Node: feature=26, threshold=0.0, value=None
+Left:
+Node: feature=58, threshold=0.0, value=None
+Left:
+Node: feature=67, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=9, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=48, threshold=0.0, value=None
+Left:
+Node: feature=69, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=2, threshold=0.0, value=None
+Left:
+Node: feature=55, threshold=0.0, value=None
+Left:
+Node: feature=36, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=New York City
+Right:
+Node: feature=17, threshold=0.0, value=None
+Left:
+Node: feature=11, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=68, threshold=0.0, value=None
+Left:
+Node: feature=9, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=Rio de Janeiro
+Right:
+Node: feature=35, threshold=0.0, value=None
+Left:
+Node: feature=None, threshold=None, value=Dubai
+Right:
+Node: feature=None, threshold=None, value=New York City
