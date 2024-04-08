@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
-from model2 import DecisionTree
+from decision_tree import DecisionTree
 from sklearn.model_selection import KFold
 file_name = "clean_dataset.csv"
 random_state = 42
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     
     best_dt_classifier = DecisionTree(max_depth=best_params['max_depth'], min_samples_split=best_params['min_samples_split'])
     best_dt_classifier.fit(x_train, y_train)
-    best_dt_classifier.save_model('best_tree_model.txt')
+    best_dt_classifier.save_model('best_tree_model.pkl')
     
 
         

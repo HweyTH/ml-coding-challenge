@@ -1,5 +1,6 @@
 import numpy as np
 from collections import Counter
+import pickle
 
 class Node:
     def __init__(self, feature=None, threshold=None, left=None, right=None, value=None):
@@ -10,11 +11,11 @@ class Node:
         self.value = value
 
 class DecisionTree:
-    def __init__(self, criterion='gini', max_depth=None, min_samples_split=2):
+    def __init__(self, criterion='gini', max_depth=None, min_samples_split=2, root=None):
         self.criterion = criterion
         self.max_depth = max_depth
         self.min_samples_split = min_samples_split
-        self.root = None
+        self.root = root
         
     def fit(self, X, y):
         self.root = self._build_tree(X, y)
@@ -93,70 +94,13 @@ class DecisionTree:
         accuracy = np.mean(y_pred == y)
         return accuracy
 
-    def save_grid(self, node, filename):
-        with open(filename, 'w') as f:
-            self._save_node(node, f)
-
     def save_model(self, filename):
-        with open(filename, 'w') as f:
-            f.write(f"max_depth={self.max_depth}\n")
-            f.write(f"min_samples_split={self.min_samples_split}\n")
-            f.write("tree_structure:\n")
-            self._save_node(self.root, f)
-            
-    def _save_node(self, node, f):
-        if node is None:
-            f.write("None\n")
-            return
-        f.write(f"Node: feature={node.feature}, threshold={node.threshold}, value={node.value}\n")
-        if node.left:
-            f.write("Left:\n")
-            self._save_node(node.left, f)
-        if node.right:
-            f.write("Right:\n")
-            self._save_node(node.right, f)
-            
-    def load_model(cls, filename):
-        with open(filename, 'r') as f:
-            lines = f.readlines()
-            params = {}
-            tree_structure_start = False
-            tree_structure_lines = []
-            for line in lines:
-                if line.strip() == "tree_structure:":
-                    tree_structure_start = True
-                    continue
-                if not tree_structure_start:
-                    key, value = line.strip().split('=')
-                    params[key] = int(value) if value.isdigit() else value
-                else:
-                    tree_structure_lines.append(line.strip())
-            root = cls._load_node(tree_structure_lines)
-            return cls(max_depth=params['max_depth'], min_samples_split=params['min_samples_split'], tree_=root)
+        with open(filename, 'wb') as f:
+            pickle.dump(self, f)
 
-    @staticmethod
-    def _load_node(lines):
-        if lines[0] == "None":
-            return None
-        # Parse node from lines
-        parts = lines[0].split(': ')[1].split(', ')
-        feature = int(parts[0].split('=')[1])
-        threshold = float(parts[1].split('=')[1])
-        value = float(parts[2].split('=')[1])
-        left_start = None
-        left_end = None
-        right_start = None
-        for idx, line in enumerate(lines):
-            if line == "Left:" and left_start is None:
-                left_start = idx + 1
-            elif line == "Right:" and right_start is None:
-                left_end = idx
-                right_start = idx + 1
-        if right_start is None:
-            left_end = len(lines)
-        left = DecisionTree._load_node(lines[left_start:left_end])
-        if right_start is not None:
-            right = DecisionTree._load_node(lines[right_start:])
-        else:
-            right = None
-        return Node(feature=feature, threshold=threshold, left=left, right=right, value=value)
+    @classmethod
+    def load_model(cls, filename):
+        with open(filename, 'rb') as f:
+            return pickle.load(f)
+            
+    
