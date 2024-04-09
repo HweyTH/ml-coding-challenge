@@ -120,7 +120,7 @@ if __name__ == '__main__':
     y_test = y[n_train:]
 
     # initialize MLP model
-    model = MLPClassifier(max_iter=400)
+    model = MLPClassifier(max_iter=200)
 
     # define parameters sets
     parameter_space = {
@@ -140,18 +140,25 @@ if __name__ == '__main__':
     # test best model on test set
     y_true, y_pred = y_test, clf.predict(X_test)
 
-    # report validation error
+    # report validation accuracy
     print('Results on the test set:')
     print(classification_report(y_true, y_pred))
 
-    # extract weights and biases of best model 
+    # retrieve the best model
     best_model = clf.best_estimator_
+
+    # report training accuracy
+    print('Training accuracy:')
+    print(best_model.score(X_train, y_train))
+
+    # extract weights and biases of best model 
     W1 = best_model.coefs_[0]
     W2 = best_model.coefs_[1]
     b1 = best_model.intercepts_[0]
     b2 = best_model.intercepts_[1]
 
     # extract output layer activation function
+    print('Activation function for output layer:')
     print(best_model.out_activation_)
 
     # report parameters of best model
@@ -159,6 +166,12 @@ if __name__ == '__main__':
     print(W2.tolist())
     print(b1.tolist())
     print(b2.tolist())
+
+    # report the shape of weight and bias matrices
+    print(W1.shape)
+    print(W2.shape)
+    print(b1.shape)
+    print(b2.shape)
 
 
     

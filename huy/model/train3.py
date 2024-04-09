@@ -1,14 +1,16 @@
+from sklearn.model_selection import GridSearchCV
+from sklearn.neural_network import MLPClassifier
+from sklearn.metrics import classification_report
 import re
 import numpy as np
 import pandas as pd
-from sklearn.neural_network import MLPClassifier
+
+file_name = "/Users/hwey/Desktop/repo_thaigia/CSC311H5S/ML Coding Challenge/clean_dataset.csv"
+RANDOM_STATE = 42
 
 # ignore syntax warning
 import warnings
 warnings.filterwarnings('ignore')
-
-file_name = "/Users/hwey/Desktop/repo_thaigia/CSC311H5S/ML Coding Challenge/clean_dataset.csv"
-RANDOM_STATE = 42
 
 def to_numeric(s):
     """Converts string `s` to a float.
@@ -97,66 +99,85 @@ def parse_data(filename: str) -> tuple[np.ndarray, np.ndarray]:
       new_names.append(cat_name)
       data[cat_name] = data["Q5"].apply(lambda s: cat_in_s(s, cat))
     del data["Q5"]
-    
-    data = data[new_names + ["Q7", "Label"]]
+
+    data = data[new_names + ["Q7", "Q8", "Q9", "Label"]]
+
+    # normalize data from Q7, Q8, and Q9
+    data["Q7"] = data["Q7"] / data["Q7"].abs().max()
+    data["Q8"] = data["Q8"] / data["Q8"].abs().max()
+    data["Q9"] = data["Q9"] / data["Q9"].abs().max()
 
     data = data.sample(frac=1, random_state=RANDOM_STATE)
 
     x = data.drop("Label", axis=1).values
+
     t = data["Label"]
 
     return x, t
 
-if __name__ == "__main__":
-    # parse data from csv file
-    x, y = parse_data(file_name)
-   
+if __name__ == '__main__':
+    X, y = parse_data(file_name)
+
     # split data into training and test sets
     n_train = 1200
-    x_train = x[:n_train]
+    X_train = X[:n_train]
     y_train = y[:n_train]
-    x_test = x[n_train:]
+    X_test = X[n_train:]
     y_test = y[n_train:]
 
-    # train Sklearn MLPClassifier with the given data
-    model = MLPClassifier()
-    model.fit(x_train, y_train)
+    # initialize MLP model
+    model = MLPClassifier(max_iter=200)
+
+    # define parameters sets
+    parameter_space = {
+        'activation': ['tanh', 'relu', 'logistic', 'identity'],
+        'solver': ['sgd', 'adam', 'lbfgs'],
+        'alpha': [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05],
+        'learning_rate': ['constant', 'adaptive'],
+    }
+
+    # train models 
+    clf = GridSearchCV(model, parameter_space, n_jobs=-1, cv=5)
+    clf.fit(X_train,y_train)
+
+    # report best set of parameters
+    print('Best parameters found:\n', clf.best_params_)
+
+    # test best model on test set
+    y_true, y_pred = y_test, clf.predict(X_test)
 
     # report validation accuracy
-    print(model.score(x_test, y_test))
+    print('Results on the test set:')
+    print(classification_report(y_true, y_pred))
+
+    # retrieve the best model
+    best_model = clf.best_estimator_
 
     # report training accuracy
-    print(model.score(x_train, y_train))
+    print('Training accuracy:')
+    print(best_model.score(X_train, y_train))
 
-    # report output layer activation function
-    print(model.out_activation_)
+    # extract weights and biases of best model 
+    W1 = best_model.coefs_[0]
+    W2 = best_model.coefs_[1]
+    b1 = best_model.intercepts_[0]
+    b2 = best_model.intercepts_[1]
 
-    # extract sklearn model parameters
-    W1 = model.coefs_[0]
-    W2 = model.coefs_[1]
-    b1 = model.intercepts_[0]
-    b2 = model.intercepts_[1]
+    # extract output layer activation function
+    print('Activation function for output layer:')
+    print(best_model.out_activation_)
 
-    # report weights and parameters used in sklearn model 
+    # report parameters of best model
     print(W1.tolist())
     print(W2.tolist())
     print(b1.tolist())
     print(b2.tolist())
 
-    # report sizes of the weights and biases matrices and vectors
+    # report the shape of weight and bias matrices
     print(W1.shape)
     print(W2.shape)
     print(b1.shape)
     print(b2.shape)
 
 
-
-
     
-
-    
-    
-    
-
-
-
