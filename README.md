@@ -3,8 +3,11 @@ The task is to use the provided data to build a classifier related to this data 
 
 # Group Members Info
 Member 1: (put your porfolio link here)
+
 Member 2: (put your porfolio link here)
+
 Member 3: (put your porfolio link here)
+
 Member 4: (put your porfolio link here)
 
 # Links
