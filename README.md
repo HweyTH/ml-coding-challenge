@@ -4,13 +4,14 @@ The task is to construct a machine learning classifier to best predict which cit
 # Group Members Info
 Member 1: Gia Huy Thai
 
-Member 2: Yonathan Yu
+Member 2: Jonathan Yu
 
-Member 3: (put your porfolio link here)
+Member 3: Minh Bao Pham
 
-Member 4: (put your porfolio link here)
+Member 4: Naufal Adityo
 
 # Links
 Data Exploration: https://colab.research.google.com/drive/1RFv5Pvpt5ol_FSVYp0_yc7R17R4gR-FG?usp=sharing
 
-PDF:
+Model Notes: https://docs.google.com/document/d/1Lom1yOnDlJ2iinu2lKsNqk9bHaz7djegfHdHxxzDJoc/edit?usp=sharing
+
