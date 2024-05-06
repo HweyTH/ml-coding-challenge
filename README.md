@@ -2,9 +2,9 @@
 The task is to use the provided data to build a classifier related to this data set, likely to predict which city a UTM student is referring to in their responses.
 
 # Group Members Info
-Member 1: (put your porfolio link here)
+Member 1: Gia Huy Thai
 
-Member 2: (put your porfolio link here)
+Member 2: Yonathan Yu
 
 Member 3: (put your porfolio link here)
 
